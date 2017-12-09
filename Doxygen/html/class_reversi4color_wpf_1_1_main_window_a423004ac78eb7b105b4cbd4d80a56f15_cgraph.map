@@ -1,0 +1,7 @@
+<map id="Reversi4colorWpf.MainWindow.DrawSingle" name="Reversi4colorWpf.MainWindow.DrawSingle">
+<area shape="rect" id="node2" href="$class_reversi4color_wpf_1_1_main_window.html#a80586da2db47e13ae408b974b3e9f2cc" title="1マス描画 " alt="" coords="257,71,461,112"/>
+<area shape="rect" id="node3" href="$class_reversi4color_wpf_1_1_hsl_color.html#a3d77f09a4e86a60d6d135d8ffbcd3298" title="指定したColorからHslColorを作成する " alt="" coords="522,5,701,47"/>
+<area shape="rect" id="node4" href="$class_reversi4color_wpf_1_1_hsl_color.html#a7b0fd43bbad55f9f383cceeda28e9103" title="指定したHslColorからColorを作成する " alt="" coords="522,71,701,112"/>
+<area shape="rect" id="node5" href="$class_reversi4color_wpf_1_1_main_window.html#a843b47fa1b0cf377435e262e32459705" title="BITMAPかImageSourceに変換 " alt="" coords="509,136,713,177"/>
+<area shape="rect" id="node6" href="$class_reversi4color_wpf_1_1_main_window.html#a1d5178b625eaf5744a51313160eaad06" title="gdi32.dllのDeleteObjectメソッドの使用を宣言する。 " alt="" coords="761,136,965,177"/>
+</map>

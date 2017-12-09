@@ -1,0 +1,6 @@
+<map id="Reversi4colorWpf.MyReversi.setMasuSts" name="Reversi4colorWpf.MyReversi.setMasuSts">
+<area shape="rect" id="node2" href="$class_reversi4color_wpf_1_1_my_reversi.html#a9bd7042ad264b2ffaa0a69aadef6a7f9" title="指定座標に指定色を置けるかチェック " alt="" coords="269,5,477,47"/>
+<area shape="rect" id="node4" href="$class_reversi4color_wpf_1_1_my_reversi.html#a6b5efd6678f80b1a5637576748457b3b" title="コマをひっくり返す " alt="" coords="269,71,476,112"/>
+<area shape="rect" id="node5" href="$class_reversi4color_wpf_1_1_my_reversi.html#aacb2634fe75f3290910033d13bd335aa" title="各コマの置ける場所等のステータス作成 " alt="" coords="261,136,484,177"/>
+<area shape="rect" id="node3" href="$class_reversi4color_wpf_1_1_my_reversi.html#a0b9374fdb5d82d5e59cddeb5f25ef676" title="パラメーター範囲チェック " alt="" coords="532,13,784,39"/>
+</map>

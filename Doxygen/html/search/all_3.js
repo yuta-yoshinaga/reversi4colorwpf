@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['checkedge',['checkEdge',['../class_reversi4color_wpf_1_1_my_reversi.html#abe8314a3a019e857add19ec6bba66781',1,'Reversi4colorWpf::MyReversi']]],
+  ['checkpara',['checkPara',['../class_reversi4color_wpf_1_1_my_reversi.html#a0b9374fdb5d82d5e59cddeb5f25ef676',1,'Reversi4colorWpf::MyReversi']]],
+  ['clone',['Clone',['../class_reversi4color_wpf_1_1_my_reversi.html#aef07eb98636639a953974d267ed8dceb',1,'Reversi4colorWpf.MyReversi.Clone()'],['../class_reversi4color_wpf_1_1_reversi_anz.html#aa0841c9262eb94164e0e1428e1020b22',1,'Reversi4colorWpf.ReversiAnz.Clone()'],['../class_reversi4color_wpf_1_1_reversi_history.html#abf1b22f4ba061084d84119c52f8a968a',1,'Reversi4colorWpf.ReversiHistory.Clone()'],['../class_reversi4color_wpf_1_1_reversi_play.html#a9140ddb26faa06482d52cb9243236203',1,'Reversi4colorWpf.ReversiPlay.Clone()'],['../class_reversi4color_wpf_1_1_reversi_point.html#a2c8e58a48a5199c8ccf3ca72e5517de9',1,'Reversi4colorWpf.ReversiPoint.Clone()'],['../class_reversi4color_wpf_1_1_reversi_setting.html#a08721b21ad49c264dcd8821ca16d2cdb',1,'Reversi4colorWpf.ReversiSetting.Clone()']]],
+  ['curcolmsg',['CurColMsg',['../class_reversi4color_wpf_1_1_main_window.html#ab2c7405df589c397f20edfd497f8b055',1,'Reversi4colorWpf::MainWindow']]],
+  ['curcolmsglocal',['CurColMsgLocal',['../class_reversi4color_wpf_1_1_main_window.html#a95f83a9cd4af4893c6fe2b84d717b92c',1,'Reversi4colorWpf.MainWindow.CurColMsgLocal()'],['../class_reversi4color_wpf_1_1_reversi_play.html#ab28025c8262b1f7fb97de3b7796a2650',1,'Reversi4colorWpf.ReversiPlay.CurColMsgLocal()']]],
+  ['curstsmsg',['CurStsMsg',['../class_reversi4color_wpf_1_1_main_window.html#a5aacc83414f6c239899ee02e2ee8d9df',1,'Reversi4colorWpf::MainWindow']]],
+  ['curstsmsglocal',['CurStsMsgLocal',['../class_reversi4color_wpf_1_1_main_window.html#a8b1203cb8245c891c935e60a2efead72',1,'Reversi4colorWpf.MainWindow.CurStsMsgLocal()'],['../class_reversi4color_wpf_1_1_reversi_play.html#ac370dc8e96852754f9c4846a3d2a49c6',1,'Reversi4colorWpf.ReversiPlay.CurStsMsgLocal()']]]
+];

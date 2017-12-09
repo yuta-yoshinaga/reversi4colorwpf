@@ -1,0 +1,1982 @@
+\hypertarget{class_reversi4color_wpf_1_1_my_reversi}{}\section{Reversi4color\+Wpf.\+My\+Reversi Class Reference}
+\label{class_reversi4color_wpf_1_1_my_reversi}\index{Reversi4color\+Wpf.\+My\+Reversi@{Reversi4color\+Wpf.\+My\+Reversi}}
+
+
+リバーシクラス  
+
+
+
+
+Collaboration diagram for Reversi4color\+Wpf.\+My\+Reversi\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_reversi4color_wpf_1_1_my_reversi__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_reversi4color_wpf_1_1_my_reversi_a0aff82171fb2635b92c341d975ef0821}{My\+Reversi} (int masu\+Cnt, int masu\+Max)
+\begin{DoxyCompactList}\small\item\em コンストラクタ \end{DoxyCompactList}\item 
+\hyperlink{class_reversi4color_wpf_1_1_my_reversi}{My\+Reversi} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_aef07eb98636639a953974d267ed8dceb}{Clone} ()
+\begin{DoxyCompactList}\small\item\em コピー \end{DoxyCompactList}\item 
+void \hyperlink{class_reversi4color_wpf_1_1_my_reversi_af80d2c161f9734e13a6b37ca0ce852dc}{reset} ()
+\begin{DoxyCompactList}\small\item\em リセット \end{DoxyCompactList}\item 
+void \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a228ec7c4ed93d7207aebb824906ccc2e}{Analysis\+Reversi} (int b\+Pass\+Ena, int w\+Pass\+Ena, int l\+Pass\+Ena, int r\+Pass\+Ena)
+\begin{DoxyCompactList}\small\item\em 解析を行う \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a4e1068b67037558148ae886c6d3ef6d8}{get\+Masu\+Sts} (int y, int x)
+\begin{DoxyCompactList}\small\item\em マスステータスを取得 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_aa034cb7e21ff293bb62e8988db2f9d03}{get\+Masu\+Sts\+Old} (int y, int x)
+\begin{DoxyCompactList}\small\item\em 以前のマスステータスを取得 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a9bd7042ad264b2ffaa0a69aadef6a7f9}{get\+Masu\+Sts\+Ena} (int color, int y, int x)
+\begin{DoxyCompactList}\small\item\em 指定座標に指定色を置けるかチェック \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_aa335ecfdefbc46bca8de76b2865a4654}{get\+Masu\+Sts\+Cnt} (int color, int y, int x)
+\begin{DoxyCompactList}\small\item\em 指定座標の獲得コマ数取得 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_aea110063f001e3ec863350e681b365c9}{get\+Color\+Ena} (int color)
+\begin{DoxyCompactList}\small\item\em 指定色が現在置ける場所があるかチェック \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a0aa1a90ea5faa1685b89617a50a6a2e1}{get\+Game\+End\+Sts} ()
+\begin{DoxyCompactList}\small\item\em ゲーム終了かチェック \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a6d87b374741e3548284d8effa0c7e0fd}{set\+Masu\+Sts} (int color, int y, int x)
+\begin{DoxyCompactList}\small\item\em 指定座標にコマを置く \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_ac36c8b68028b3468cedc09454b118871}{set\+Masu\+Sts\+Forcibly} (int color, int y, int x)
+\begin{DoxyCompactList}\small\item\em 指定座標にコマを強制的に置く \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a37c57a49d2f80c94dd0eb003de0328d5}{set\+Masu\+Cnt} (int cnt)
+\begin{DoxyCompactList}\small\item\em マスの数変更 \end{DoxyCompactList}\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_point}{Reversi\+Point} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a13dc626307cc782c31fa88bf41797de0}{get\+Point} (int color, int num)
+\begin{DoxyCompactList}\small\item\em ポイント座標取得 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_ac9f2dfa1075b49a69fa87ab4a45ae5f8}{get\+Point\+Cnt} (int color)
+\begin{DoxyCompactList}\small\item\em ポイント座標数取得 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_aeb3aac2b535091f0c31b69c35e3bee3b}{get\+Bet\+Cnt} (int color)
+\begin{DoxyCompactList}\small\item\em コマ数取得 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a94677e93e122116de86053b2d29b7305}{get\+Pass\+Ena} (int color, int y, int x)
+\begin{DoxyCompactList}\small\item\em パス判定 \end{DoxyCompactList}\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_history}{Reversi\+History} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a2e7355e057594ba70b777cf179a94d41}{get\+History} (int num)
+\begin{DoxyCompactList}\small\item\em 履歴取得 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_aa74fd4473c82625f169f3e5a18d155b2}{get\+History\+Cnt} ()
+\begin{DoxyCompactList}\small\item\em 履歴数取得 \end{DoxyCompactList}\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_anz}{Reversi\+Anz} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a9b2fa842b47dab7f22cdfd888700c92c}{get\+Point\+Anz} (int color, int y, int x)
+\begin{DoxyCompactList}\small\item\em ポイント座標解析取得 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_abe8314a3a019e857add19ec6bba66781}{check\+Edge} (int color, int y, int x)
+\begin{DoxyCompactList}\small\item\em 角の隣に置いても角を取られないマス検索 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a3eeb1a89964b807fcd672907697f59c2}{get\+Edge\+Side\+Zero} (int y, int x)
+\begin{DoxyCompactList}\small\item\em 指定座標が角か取得 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a604e22c6446a7b8ee81eece710dcdd48}{get\+Edge\+Side\+One} (int y, int x)
+\begin{DoxyCompactList}\small\item\em 指定座標が角の一つ手前か取得 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a652f8a39e6934d23b5cfbe4bfbe37dcd}{get\+Edge\+Side\+Two} (int y, int x)
+\begin{DoxyCompactList}\small\item\em 指定座標が角の二つ手前か取得 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a3f70a2eb50131faf686d2a71b04a3abc}{get\+Edge\+Side\+Three} (int y, int x)
+\begin{DoxyCompactList}\small\item\em 指定座標が角の三つ以上手前か取得 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aab930a857bd8acf6e61271474ed7cf2a}{}\label{class_reversi4color_wpf_1_1_my_reversi_aab930a857bd8acf6e61271474ed7cf2a}
+
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+Old}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_acda89bb324bc2ab053193c49773dd519}{}\label{class_reversi4color_wpf_1_1_my_reversi_acda89bb324bc2ab053193c49773dd519}
+
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+EnaB}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_abf460ccfe8ae0653e5e2ca8ed02db872}{}\label{class_reversi4color_wpf_1_1_my_reversi_abf460ccfe8ae0653e5e2ca8ed02db872}
+
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+CntB}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a7047980b1a1a705711552228cf6dc98c}{}\label{class_reversi4color_wpf_1_1_my_reversi_a7047980b1a1a705711552228cf6dc98c}
+
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+PassB}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_af9605ab532816d2f3dedaf8272d627fa}{}\label{class_reversi4color_wpf_1_1_my_reversi_af9605ab532816d2f3dedaf8272d627fa}
+
+\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_anz}{Reversi\+Anz}\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+AnzB}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a24b0c418d62a94e2fe33a15e39bba3c6}{}\label{class_reversi4color_wpf_1_1_my_reversi_a24b0c418d62a94e2fe33a15e39bba3c6}
+
+\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_point}{Reversi\+Point}\mbox{[}$\,$\mbox{]} {\bfseries m\+Masu\+PointB}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a29428e34e10ec32000378df6a5abef26}{}\label{class_reversi4color_wpf_1_1_my_reversi_a29428e34e10ec32000378df6a5abef26}
+
+\item 
+int {\bfseries m\+Masu\+Point\+CntB}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a59ae1376f707fd97eaedc874e0c30fe5}{}\label{class_reversi4color_wpf_1_1_my_reversi_a59ae1376f707fd97eaedc874e0c30fe5}
+
+\item 
+int {\bfseries m\+Masu\+Bet\+CntB}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a9460fc0e6ffcd6d5abb15f9d1ac20f0d}{}\label{class_reversi4color_wpf_1_1_my_reversi_a9460fc0e6ffcd6d5abb15f9d1ac20f0d}
+
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+EnaW}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_abfea6d44d23ef06bed9990874dafa869}{}\label{class_reversi4color_wpf_1_1_my_reversi_abfea6d44d23ef06bed9990874dafa869}
+
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+CntW}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_ae8db85b2cca3fbcea30ad91bb0819a69}{}\label{class_reversi4color_wpf_1_1_my_reversi_ae8db85b2cca3fbcea30ad91bb0819a69}
+
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+PassW}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a53e0fe59c1b058eee3a3a6453e62a30f}{}\label{class_reversi4color_wpf_1_1_my_reversi_a53e0fe59c1b058eee3a3a6453e62a30f}
+
+\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_anz}{Reversi\+Anz}\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+AnzW}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_ab541ff1a389519dcb15f616d65b8926a}{}\label{class_reversi4color_wpf_1_1_my_reversi_ab541ff1a389519dcb15f616d65b8926a}
+
+\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_point}{Reversi\+Point}\mbox{[}$\,$\mbox{]} {\bfseries m\+Masu\+PointW}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aca034aa623239d05d71d4e37aebff3c8}{}\label{class_reversi4color_wpf_1_1_my_reversi_aca034aa623239d05d71d4e37aebff3c8}
+
+\item 
+int {\bfseries m\+Masu\+Point\+CntW}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a8261582475196adb4399866c93d3507b}{}\label{class_reversi4color_wpf_1_1_my_reversi_a8261582475196adb4399866c93d3507b}
+
+\item 
+int {\bfseries m\+Masu\+Bet\+CntW}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a621ebc9167594ce150b72d0d97d89322}{}\label{class_reversi4color_wpf_1_1_my_reversi_a621ebc9167594ce150b72d0d97d89322}
+
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+EnaL}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a977afaeba456926268d84da0931c6830}{}\label{class_reversi4color_wpf_1_1_my_reversi_a977afaeba456926268d84da0931c6830}
+
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+CntL}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a29e8b7e13f0ab0c32c4215e30d1e564f}{}\label{class_reversi4color_wpf_1_1_my_reversi_a29e8b7e13f0ab0c32c4215e30d1e564f}
+
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+PassL}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_ac29a8cd38cbd610a6747b73f60d662e8}{}\label{class_reversi4color_wpf_1_1_my_reversi_ac29a8cd38cbd610a6747b73f60d662e8}
+
+\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_anz}{Reversi\+Anz}\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+AnzL}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a76a40a3ee1913ebba57e79ced67777d3}{}\label{class_reversi4color_wpf_1_1_my_reversi_a76a40a3ee1913ebba57e79ced67777d3}
+
+\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_point}{Reversi\+Point}\mbox{[}$\,$\mbox{]} {\bfseries m\+Masu\+PointL}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a138fa7ffd3d4bd04fdf601fda1e19ec9}{}\label{class_reversi4color_wpf_1_1_my_reversi_a138fa7ffd3d4bd04fdf601fda1e19ec9}
+
+\item 
+int {\bfseries m\+Masu\+Point\+CntL}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_ab4f169f9133d951300ff8c1e14b86330}{}\label{class_reversi4color_wpf_1_1_my_reversi_ab4f169f9133d951300ff8c1e14b86330}
+
+\item 
+int {\bfseries m\+Masu\+Bet\+CntL}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aaa6b6cc582586f795a88e2e8c0de5df1}{}\label{class_reversi4color_wpf_1_1_my_reversi_aaa6b6cc582586f795a88e2e8c0de5df1}
+
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+EnaR}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_abde6a36dbcab2cdee5fa69764412fe5b}{}\label{class_reversi4color_wpf_1_1_my_reversi_abde6a36dbcab2cdee5fa69764412fe5b}
+
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+CntR}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a81cc58ac125a4af93ccf8c29da2e38e4}{}\label{class_reversi4color_wpf_1_1_my_reversi_a81cc58ac125a4af93ccf8c29da2e38e4}
+
+\item 
+int\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+PassR}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_af13e2d925da31d59954ea9f2b0e16769}{}\label{class_reversi4color_wpf_1_1_my_reversi_af13e2d925da31d59954ea9f2b0e16769}
+
+\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_anz}{Reversi\+Anz}\mbox{[},\mbox{]} {\bfseries m\+Masu\+Sts\+AnzR}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a6d3e80020177d0a6a02931d47da27fa4}{}\label{class_reversi4color_wpf_1_1_my_reversi_a6d3e80020177d0a6a02931d47da27fa4}
+
+\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_point}{Reversi\+Point}\mbox{[}$\,$\mbox{]} {\bfseries m\+Masu\+PointR}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_ae7ccd8bb9cacc8bd874ca5c6a76d8a5e}{}\label{class_reversi4color_wpf_1_1_my_reversi_ae7ccd8bb9cacc8bd874ca5c6a76d8a5e}
+
+\item 
+int {\bfseries m\+Masu\+Point\+CntR}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a2a5cfa3ff69d7c87d76897686443640d}{}\label{class_reversi4color_wpf_1_1_my_reversi_a2a5cfa3ff69d7c87d76897686443640d}
+
+\item 
+int {\bfseries m\+Masu\+Bet\+CntR}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aa7c5dcd212333336e8e9531d7c0655b5}{}\label{class_reversi4color_wpf_1_1_my_reversi_aa7c5dcd212333336e8e9531d7c0655b5}
+
+\item 
+int {\bfseries m\+Masu\+Cnt}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_abc55483affaebaa749fba83be9ae158a}{}\label{class_reversi4color_wpf_1_1_my_reversi_abc55483affaebaa749fba83be9ae158a}
+
+\item 
+int {\bfseries m\+Masu\+Cnt\+Max}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a5cb01fc75ed7275ecd45f1e55f0f731c}{}\label{class_reversi4color_wpf_1_1_my_reversi_a5cb01fc75ed7275ecd45f1e55f0f731c}
+
+\item 
+int {\bfseries m\+Masu\+Hist\+Cur}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a059615f4e36520273b9ea73ee227c731}{}\label{class_reversi4color_wpf_1_1_my_reversi_a059615f4e36520273b9ea73ee227c731}
+
+\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_history}{Reversi\+History}\mbox{[}$\,$\mbox{]} {\bfseries m\+Masu\+Hist}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a04b19090e707f6c9ee1ba38a304887a0}{}\label{class_reversi4color_wpf_1_1_my_reversi_a04b19090e707f6c9ee1ba38a304887a0}
+
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_aacb2634fe75f3290910033d13bd335aa}{make\+Masu\+Sts} (int color)
+\begin{DoxyCompactList}\small\item\em 各コマの置ける場所等のステータス作成 \end{DoxyCompactList}\item 
+void \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a6b5efd6678f80b1a5637576748457b3b}{rev\+Masu\+Sts} (int color, int y, int x)
+\begin{DoxyCompactList}\small\item\em コマをひっくり返す \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a0b9374fdb5d82d5e59cddeb5f25ef676}{check\+Para} (int para, int min, int max)
+\begin{DoxyCompactList}\small\item\em パラメーター範囲チェック \end{DoxyCompactList}\item 
+void \hyperlink{class_reversi4color_wpf_1_1_my_reversi_af3e53dce82787cfdad079a37c2c73f61}{Analysis\+Reversi\+Black} ()
+\begin{DoxyCompactList}\small\item\em 解析を行う(黒) \end{DoxyCompactList}\item 
+void \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a93276b74fb1de8525be31615ff03427e}{Analysis\+Reversi\+White} ()
+\begin{DoxyCompactList}\small\item\em 解析を行う(白) \end{DoxyCompactList}\item 
+void \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a4acbdc2f3b8873eb4e5e0858eb4cfc75}{Analysis\+Reversi\+Blue} ()
+\begin{DoxyCompactList}\small\item\em 解析を行う(青) \end{DoxyCompactList}\item 
+void \hyperlink{class_reversi4color_wpf_1_1_my_reversi_afb6eb8a1ecd5bb4498425bea6103f261}{Analysis\+Reversi\+Red} ()
+\begin{DoxyCompactList}\small\item\em 解析を行う(赤) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_afe3d2a90c4844a94211176cf6e6a1282}{\+\_\+m\+Masu\+Sts}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_afe3d2a90c4844a94211176cf6e6a1282}{}\label{class_reversi4color_wpf_1_1_my_reversi_afe3d2a90c4844a94211176cf6e6a1282}
+
+\begin{DoxyCompactList}\small\item\em マスの状態 \end{DoxyCompactList}\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a46ace9588e22fda5a4560befe8512311}{\+\_\+m\+Masu\+Sts\+Old}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a46ace9588e22fda5a4560befe8512311}{}\label{class_reversi4color_wpf_1_1_my_reversi_a46ace9588e22fda5a4560befe8512311}
+
+\begin{DoxyCompactList}\small\item\em 以前のマスの状態 \end{DoxyCompactList}\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a3ab93ef7fa7835b3fe8f224dcb6a5d86}{\+\_\+m\+Masu\+Sts\+EnaB}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a3ab93ef7fa7835b3fe8f224dcb6a5d86}{}\label{class_reversi4color_wpf_1_1_my_reversi_a3ab93ef7fa7835b3fe8f224dcb6a5d86}
+
+\begin{DoxyCompactList}\small\item\em 黒の置ける場所 \end{DoxyCompactList}\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a7d7f2618adbdac67b86fcf96d2849284}{\+\_\+m\+Masu\+Sts\+CntB}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a7d7f2618adbdac67b86fcf96d2849284}{}\label{class_reversi4color_wpf_1_1_my_reversi_a7d7f2618adbdac67b86fcf96d2849284}
+
+\begin{DoxyCompactList}\small\item\em 黒の獲得コマ数 \end{DoxyCompactList}\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_aaf76944108096d3719b238e22bf88d44}{\+\_\+m\+Masu\+Sts\+PassB}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aaf76944108096d3719b238e22bf88d44}{}\label{class_reversi4color_wpf_1_1_my_reversi_aaf76944108096d3719b238e22bf88d44}
+
+\begin{DoxyCompactList}\small\item\em 黒が相手をパスさせる場所 \end{DoxyCompactList}\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_anz}{Reversi\+Anz}\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a7c3d619ff340a2fe08b53c22c8026fda}{\+\_\+m\+Masu\+Sts\+AnzB}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a7c3d619ff340a2fe08b53c22c8026fda}{}\label{class_reversi4color_wpf_1_1_my_reversi_a7c3d619ff340a2fe08b53c22c8026fda}
+
+\begin{DoxyCompactList}\small\item\em 黒がその場所に置いた場合の解析結果 \end{DoxyCompactList}\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_point}{Reversi\+Point}\mbox{[}$\,$\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_aed3c013f4451b944822a9036c5e8a6bd}{\+\_\+m\+Masu\+PointB}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aed3c013f4451b944822a9036c5e8a6bd}{}\label{class_reversi4color_wpf_1_1_my_reversi_aed3c013f4451b944822a9036c5e8a6bd}
+
+\begin{DoxyCompactList}\small\item\em 黒の置ける場所座標一覧 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a45917af32018c0cfd577061e546172e1}{\+\_\+m\+Masu\+Point\+CntB}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a45917af32018c0cfd577061e546172e1}{}\label{class_reversi4color_wpf_1_1_my_reversi_a45917af32018c0cfd577061e546172e1}
+
+\begin{DoxyCompactList}\small\item\em 黒の置ける場所座標一覧数 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a39e56156624500f856939c9e95ff891c}{\+\_\+m\+Masu\+Bet\+CntB}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a39e56156624500f856939c9e95ff891c}{}\label{class_reversi4color_wpf_1_1_my_reversi_a39e56156624500f856939c9e95ff891c}
+
+\begin{DoxyCompactList}\small\item\em 黒コマ数 \end{DoxyCompactList}\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a812132d01a6c87affef7fc8f402dc315}{\+\_\+m\+Masu\+Sts\+EnaW}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a812132d01a6c87affef7fc8f402dc315}{}\label{class_reversi4color_wpf_1_1_my_reversi_a812132d01a6c87affef7fc8f402dc315}
+
+\begin{DoxyCompactList}\small\item\em 白の置ける場所 \end{DoxyCompactList}\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a1d4b4dc81b781771bde93385e7696603}{\+\_\+m\+Masu\+Sts\+CntW}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a1d4b4dc81b781771bde93385e7696603}{}\label{class_reversi4color_wpf_1_1_my_reversi_a1d4b4dc81b781771bde93385e7696603}
+
+\begin{DoxyCompactList}\small\item\em 白の獲得コマ数 \end{DoxyCompactList}\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_ae312d7135291927d924226fa3d1d096f}{\+\_\+m\+Masu\+Sts\+PassW}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_ae312d7135291927d924226fa3d1d096f}{}\label{class_reversi4color_wpf_1_1_my_reversi_ae312d7135291927d924226fa3d1d096f}
+
+\begin{DoxyCompactList}\small\item\em 白が相手をパスさせる場所 \end{DoxyCompactList}\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_anz}{Reversi\+Anz}\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_adf20e6be7ba47790ef17a828fae4b1a0}{\+\_\+m\+Masu\+Sts\+AnzW}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_adf20e6be7ba47790ef17a828fae4b1a0}{}\label{class_reversi4color_wpf_1_1_my_reversi_adf20e6be7ba47790ef17a828fae4b1a0}
+
+\begin{DoxyCompactList}\small\item\em 白がその場所に置いた場合の解析結果 \end{DoxyCompactList}\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_point}{Reversi\+Point}\mbox{[}$\,$\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a862934ca152c2b7df753e7c5c1a660bb}{\+\_\+m\+Masu\+PointW}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a862934ca152c2b7df753e7c5c1a660bb}{}\label{class_reversi4color_wpf_1_1_my_reversi_a862934ca152c2b7df753e7c5c1a660bb}
+
+\begin{DoxyCompactList}\small\item\em 白の置ける場所座標一覧 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_ab1f2c92ba51cb2a33713b382e57451dd}{\+\_\+m\+Masu\+Point\+CntW}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_ab1f2c92ba51cb2a33713b382e57451dd}{}\label{class_reversi4color_wpf_1_1_my_reversi_ab1f2c92ba51cb2a33713b382e57451dd}
+
+\begin{DoxyCompactList}\small\item\em 白の置ける場所座標一覧数 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a906c86ba3694d1eed81d7b92047c8c02}{\+\_\+m\+Masu\+Bet\+CntW}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a906c86ba3694d1eed81d7b92047c8c02}{}\label{class_reversi4color_wpf_1_1_my_reversi_a906c86ba3694d1eed81d7b92047c8c02}
+
+\begin{DoxyCompactList}\small\item\em 白コマ数 \end{DoxyCompactList}\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_aea7f0be90f4b853b330f376bc8106236}{\+\_\+m\+Masu\+Sts\+EnaL}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aea7f0be90f4b853b330f376bc8106236}{}\label{class_reversi4color_wpf_1_1_my_reversi_aea7f0be90f4b853b330f376bc8106236}
+
+\begin{DoxyCompactList}\small\item\em 青の置ける場所 \end{DoxyCompactList}\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a31a74565a1f10e8fc43d6a2e4cbe51fd}{\+\_\+m\+Masu\+Sts\+CntL}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a31a74565a1f10e8fc43d6a2e4cbe51fd}{}\label{class_reversi4color_wpf_1_1_my_reversi_a31a74565a1f10e8fc43d6a2e4cbe51fd}
+
+\begin{DoxyCompactList}\small\item\em 青の獲得コマ数 \end{DoxyCompactList}\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a39a13fe257567d0be1d952706108752c}{\+\_\+m\+Masu\+Sts\+PassL}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a39a13fe257567d0be1d952706108752c}{}\label{class_reversi4color_wpf_1_1_my_reversi_a39a13fe257567d0be1d952706108752c}
+
+\begin{DoxyCompactList}\small\item\em 青が相手をパスさせる場所 \end{DoxyCompactList}\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_anz}{Reversi\+Anz}\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_aa0702ba3fa3b8ba9902b17f53fbc8381}{\+\_\+m\+Masu\+Sts\+AnzL}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aa0702ba3fa3b8ba9902b17f53fbc8381}{}\label{class_reversi4color_wpf_1_1_my_reversi_aa0702ba3fa3b8ba9902b17f53fbc8381}
+
+\begin{DoxyCompactList}\small\item\em 青がその場所に置いた場合の解析結果 \end{DoxyCompactList}\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_point}{Reversi\+Point}\mbox{[}$\,$\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_abbc1a3075549f57955a4555a71bbb379}{\+\_\+m\+Masu\+PointL}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_abbc1a3075549f57955a4555a71bbb379}{}\label{class_reversi4color_wpf_1_1_my_reversi_abbc1a3075549f57955a4555a71bbb379}
+
+\begin{DoxyCompactList}\small\item\em 青の置ける場所座標一覧 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a726ad99adbabca60c1d576a2e1cd062e}{\+\_\+m\+Masu\+Point\+CntL}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a726ad99adbabca60c1d576a2e1cd062e}{}\label{class_reversi4color_wpf_1_1_my_reversi_a726ad99adbabca60c1d576a2e1cd062e}
+
+\begin{DoxyCompactList}\small\item\em 青の置ける場所座標一覧数 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_ac739b0e4078cbbea5bfcd8594ec3bd1e}{\+\_\+m\+Masu\+Bet\+CntL}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_ac739b0e4078cbbea5bfcd8594ec3bd1e}{}\label{class_reversi4color_wpf_1_1_my_reversi_ac739b0e4078cbbea5bfcd8594ec3bd1e}
+
+\begin{DoxyCompactList}\small\item\em 青コマ数 \end{DoxyCompactList}\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_ab6f9dad36b8f2b37e55e833635a468fa}{\+\_\+m\+Masu\+Sts\+EnaR}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_ab6f9dad36b8f2b37e55e833635a468fa}{}\label{class_reversi4color_wpf_1_1_my_reversi_ab6f9dad36b8f2b37e55e833635a468fa}
+
+\begin{DoxyCompactList}\small\item\em 赤の置ける場所 \end{DoxyCompactList}\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_aa80938ff561e1678fc1b94f460fcf2dc}{\+\_\+m\+Masu\+Sts\+CntR}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aa80938ff561e1678fc1b94f460fcf2dc}{}\label{class_reversi4color_wpf_1_1_my_reversi_aa80938ff561e1678fc1b94f460fcf2dc}
+
+\begin{DoxyCompactList}\small\item\em 赤の獲得コマ数 \end{DoxyCompactList}\item 
+int\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_ac27e13b651eeea6f907201802b23e499}{\+\_\+m\+Masu\+Sts\+PassR}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_ac27e13b651eeea6f907201802b23e499}{}\label{class_reversi4color_wpf_1_1_my_reversi_ac27e13b651eeea6f907201802b23e499}
+
+\begin{DoxyCompactList}\small\item\em 赤が相手をパスさせる場所 \end{DoxyCompactList}\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_anz}{Reversi\+Anz}\mbox{[},\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a10dc174adc302c8c2e0678698386ac45}{\+\_\+m\+Masu\+Sts\+AnzR}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a10dc174adc302c8c2e0678698386ac45}{}\label{class_reversi4color_wpf_1_1_my_reversi_a10dc174adc302c8c2e0678698386ac45}
+
+\begin{DoxyCompactList}\small\item\em 赤がその場所に置いた場合の解析結果 \end{DoxyCompactList}\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_point}{Reversi\+Point}\mbox{[}$\,$\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a126ef3c8931f0b94eb53dbfb6f211b2a}{\+\_\+m\+Masu\+PointR}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a126ef3c8931f0b94eb53dbfb6f211b2a}{}\label{class_reversi4color_wpf_1_1_my_reversi_a126ef3c8931f0b94eb53dbfb6f211b2a}
+
+\begin{DoxyCompactList}\small\item\em 赤の置ける場所座標一覧 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a42cbb443b36a3e569fb51169be1bcd15}{\+\_\+m\+Masu\+Point\+CntR}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a42cbb443b36a3e569fb51169be1bcd15}{}\label{class_reversi4color_wpf_1_1_my_reversi_a42cbb443b36a3e569fb51169be1bcd15}
+
+\begin{DoxyCompactList}\small\item\em 赤の置ける場所座標一覧数 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a5ef656c94d12103e9a6a0d76294a52a8}{\+\_\+m\+Masu\+Bet\+CntR}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a5ef656c94d12103e9a6a0d76294a52a8}{}\label{class_reversi4color_wpf_1_1_my_reversi_a5ef656c94d12103e9a6a0d76294a52a8}
+
+\begin{DoxyCompactList}\small\item\em 赤コマ数 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a43f31d787cf6be2b8ca05dcd54beced2}{\+\_\+m\+Masu\+Cnt}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a43f31d787cf6be2b8ca05dcd54beced2}{}\label{class_reversi4color_wpf_1_1_my_reversi_a43f31d787cf6be2b8ca05dcd54beced2}
+
+\begin{DoxyCompactList}\small\item\em 縦横マス数 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_abc73d112b50b80953ef5e2b2e597e39b}{\+\_\+m\+Masu\+Cnt\+Max}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_abc73d112b50b80953ef5e2b2e597e39b}{}\label{class_reversi4color_wpf_1_1_my_reversi_abc73d112b50b80953ef5e2b2e597e39b}
+
+\begin{DoxyCompactList}\small\item\em 縦横マス最大数 \end{DoxyCompactList}\item 
+int \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a9c67f4557df1fab1f068d1f9d14cb5bb}{\+\_\+m\+Masu\+Hist\+Cur}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a9c67f4557df1fab1f068d1f9d14cb5bb}{}\label{class_reversi4color_wpf_1_1_my_reversi_a9c67f4557df1fab1f068d1f9d14cb5bb}
+
+\begin{DoxyCompactList}\small\item\em 履歴現在位置 \end{DoxyCompactList}\item 
+\hyperlink{class_reversi4color_wpf_1_1_reversi_history}{Reversi\+History}\mbox{[}$\,$\mbox{]} \hyperlink{class_reversi4color_wpf_1_1_my_reversi_a997db04c238f611beceec8384e6ed3b0}{\+\_\+m\+Masu\+Hist}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a997db04c238f611beceec8384e6ed3b0}{}\label{class_reversi4color_wpf_1_1_my_reversi_a997db04c238f611beceec8384e6ed3b0}
+
+\begin{DoxyCompactList}\small\item\em 履歴 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+リバーシクラス 
+
+Definition at line 30 of file My\+Reversi.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!My\+Reversi@{My\+Reversi}}
+\index{My\+Reversi@{My\+Reversi}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{My\+Reversi(int masu\+Cnt, int masu\+Max)}{MyReversi(int masuCnt, int masuMax)}}]{\setlength{\rightskip}{0pt plus 5cm}Reversi4color\+Wpf.\+My\+Reversi.\+My\+Reversi (
+\begin{DoxyParamCaption}
+\item[{int}]{masu\+Cnt, }
+\item[{int}]{masu\+Max}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a0aff82171fb2635b92c341d975ef0821}{}\label{class_reversi4color_wpf_1_1_my_reversi_a0aff82171fb2635b92c341d975ef0821}
+
+
+コンストラクタ 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & masu\+Cnt 縦横マス数 \\
+\hline
+\mbox{\tt in}  & {\em int} & masu\+Max 縦横マス最大数 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ありません 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 252 of file My\+Reversi.\+cs.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a0aff82171fb2635b92c341d975ef0821_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!Analysis\+Reversi@{Analysis\+Reversi}}
+\index{Analysis\+Reversi@{Analysis\+Reversi}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{Analysis\+Reversi(int b\+Pass\+Ena, int w\+Pass\+Ena, int l\+Pass\+Ena, int r\+Pass\+Ena)}{AnalysisReversi(int bPassEna, int wPassEna, int lPassEna, int rPassEna)}}]{\setlength{\rightskip}{0pt plus 5cm}void Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi (
+\begin{DoxyParamCaption}
+\item[{int}]{b\+Pass\+Ena, }
+\item[{int}]{w\+Pass\+Ena, }
+\item[{int}]{l\+Pass\+Ena, }
+\item[{int}]{r\+Pass\+Ena}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a228ec7c4ed93d7207aebb824906ccc2e}{}\label{class_reversi4color_wpf_1_1_my_reversi_a228ec7c4ed93d7207aebb824906ccc2e}
+
+
+解析を行う 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & b\+Pass\+Ena 1=黒パス有効 \\
+\hline
+\mbox{\tt in}  & {\em int} & w\+Pass\+Ena 1=白パス有効 \\
+\hline
+\mbox{\tt in}  & {\em int} & l\+Pass\+Ena 1=青パス有効 \\
+\hline
+\mbox{\tt in}  & {\em int} & r\+Pass\+Ena 1=赤パス有効 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ありません 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1628 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+Reversi\+Play.\+reset(), Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play(), and Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a228ec7c4ed93d7207aebb824906ccc2e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a228ec7c4ed93d7207aebb824906ccc2e_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!Analysis\+Reversi\+Black@{Analysis\+Reversi\+Black}}
+\index{Analysis\+Reversi\+Black@{Analysis\+Reversi\+Black}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{Analysis\+Reversi\+Black()}{AnalysisReversiBlack()}}]{\setlength{\rightskip}{0pt plus 5cm}void Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Black (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_af3e53dce82787cfdad079a37c2c73f61}{}\label{class_reversi4color_wpf_1_1_my_reversi_af3e53dce82787cfdad079a37c2c73f61}
+
+
+解析を行う(黒) 
+
+\begin{DoxyReturn}{Returns}
+ありません 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 848 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_af3e53dce82787cfdad079a37c2c73f61_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_af3e53dce82787cfdad079a37c2c73f61_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!Analysis\+Reversi\+Blue@{Analysis\+Reversi\+Blue}}
+\index{Analysis\+Reversi\+Blue@{Analysis\+Reversi\+Blue}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{Analysis\+Reversi\+Blue()}{AnalysisReversiBlue()}}]{\setlength{\rightskip}{0pt plus 5cm}void Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Blue (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a4acbdc2f3b8873eb4e5e0858eb4cfc75}{}\label{class_reversi4color_wpf_1_1_my_reversi_a4acbdc2f3b8873eb4e5e0858eb4cfc75}
+
+
+解析を行う(青) 
+
+\begin{DoxyReturn}{Returns}
+ありません 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1234 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a4acbdc2f3b8873eb4e5e0858eb4cfc75_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a4acbdc2f3b8873eb4e5e0858eb4cfc75_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!Analysis\+Reversi\+Red@{Analysis\+Reversi\+Red}}
+\index{Analysis\+Reversi\+Red@{Analysis\+Reversi\+Red}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{Analysis\+Reversi\+Red()}{AnalysisReversiRed()}}]{\setlength{\rightskip}{0pt plus 5cm}void Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Red (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_afb6eb8a1ecd5bb4498425bea6103f261}{}\label{class_reversi4color_wpf_1_1_my_reversi_afb6eb8a1ecd5bb4498425bea6103f261}
+
+
+解析を行う(赤) 
+
+\begin{DoxyReturn}{Returns}
+ありません 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1429 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_afb6eb8a1ecd5bb4498425bea6103f261_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_afb6eb8a1ecd5bb4498425bea6103f261_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!Analysis\+Reversi\+White@{Analysis\+Reversi\+White}}
+\index{Analysis\+Reversi\+White@{Analysis\+Reversi\+White}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{Analysis\+Reversi\+White()}{AnalysisReversiWhite()}}]{\setlength{\rightskip}{0pt plus 5cm}void Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+White (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a93276b74fb1de8525be31615ff03427e}{}\label{class_reversi4color_wpf_1_1_my_reversi_a93276b74fb1de8525be31615ff03427e}
+
+
+解析を行う(白) 
+
+\begin{DoxyReturn}{Returns}
+ありません 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1041 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a93276b74fb1de8525be31615ff03427e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a93276b74fb1de8525be31615ff03427e_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!check\+Edge@{check\+Edge}}
+\index{check\+Edge@{check\+Edge}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{check\+Edge(int color, int y, int x)}{checkEdge(int color, int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+check\+Edge (
+\begin{DoxyParamCaption}
+\item[{int}]{color, }
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_abe8314a3a019e857add19ec6bba66781}{}\label{class_reversi4color_wpf_1_1_my_reversi_abe8314a3a019e857add19ec6bba66781}
+
+
+角の隣に置いても角を取られないマス検索 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & color コマ色 \\
+\hline
+\mbox{\tt in}  & {\em int} & y マスの\+Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x マスの\+X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 \+: 取られる それ以外 \+: 取られない 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 2024 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Black(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Blue(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Red(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+White(), and Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_abe8314a3a019e857add19ec6bba66781_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_abe8314a3a019e857add19ec6bba66781_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!check\+Para@{check\+Para}}
+\index{check\+Para@{check\+Para}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{check\+Para(int para, int min, int max)}{checkPara(int para, int min, int max)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+check\+Para (
+\begin{DoxyParamCaption}
+\item[{int}]{para, }
+\item[{int}]{min, }
+\item[{int}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a0b9374fdb5d82d5e59cddeb5f25ef676}{}\label{class_reversi4color_wpf_1_1_my_reversi_a0b9374fdb5d82d5e59cddeb5f25ef676}
+
+
+パラメーター範囲チェック 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & para チェックパラメーター \\
+\hline
+\mbox{\tt in}  & {\em int} & min パラメーター最小値 \\
+\hline
+\mbox{\tt in}  & {\em int} & max パラメーター最大値 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 \+: 成功 それ以外 \+: 失敗 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 833 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+get\+History(), Reversi4color\+Wpf.\+My\+Reversi.\+get\+Masu\+Sts(), Reversi4color\+Wpf.\+My\+Reversi.\+get\+Masu\+Sts\+Cnt(), Reversi4color\+Wpf.\+My\+Reversi.\+get\+Masu\+Sts\+Ena(), Reversi4color\+Wpf.\+My\+Reversi.\+get\+Masu\+Sts\+Old(), Reversi4color\+Wpf.\+My\+Reversi.\+get\+Pass\+Ena(), Reversi4color\+Wpf.\+My\+Reversi.\+get\+Point(), Reversi4color\+Wpf.\+My\+Reversi.\+get\+Point\+Anz(), and Reversi4color\+Wpf.\+My\+Reversi.\+set\+Masu\+Cnt().
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a0b9374fdb5d82d5e59cddeb5f25ef676_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!Clone@{Clone}}
+\index{Clone@{Clone}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{Clone()}{Clone()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf My\+Reversi} Reversi4color\+Wpf.\+My\+Reversi.\+Clone (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aef07eb98636639a953974d267ed8dceb}{}\label{class_reversi4color_wpf_1_1_my_reversi_aef07eb98636639a953974d267ed8dceb}
+
+
+コピー 
+
+\begin{DoxyReturn}{Returns}
+オブジェクトコピー 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 342 of file My\+Reversi.\+cs.
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Bet\+Cnt@{get\+Bet\+Cnt}}
+\index{get\+Bet\+Cnt@{get\+Bet\+Cnt}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Bet\+Cnt(int color)}{getBetCnt(int color)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+Bet\+Cnt (
+\begin{DoxyParamCaption}
+\item[{int}]{color}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aeb3aac2b535091f0c31b69c35e3bee3b}{}\label{class_reversi4color_wpf_1_1_my_reversi_aeb3aac2b535091f0c31b69c35e3bee3b}
+
+
+コマ数取得 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & color コマ色 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+コマ数取得 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1921 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+Reversi\+Play.\+exec\+Message(), Reversi4color\+Wpf.\+Reversi\+Play.\+game\+End\+Anim\+Exec(), Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play(), Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu(), Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+End(), and Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Sub().
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_aeb3aac2b535091f0c31b69c35e3bee3b_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Color\+Ena@{get\+Color\+Ena}}
+\index{get\+Color\+Ena@{get\+Color\+Ena}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Color\+Ena(int color)}{getColorEna(int color)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+Color\+Ena (
+\begin{DoxyParamCaption}
+\item[{int}]{color}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aea110063f001e3ec863350e681b365c9}{}\label{class_reversi4color_wpf_1_1_my_reversi_aea110063f001e3ec863350e681b365c9}
+
+
+指定色が現在置ける場所があるかチェック 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & color コマ色 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 \+: 成功 それ以外 \+: 失敗 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1761 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Black(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Blue(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Red(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+White(), Reversi4color\+Wpf.\+My\+Reversi.\+get\+Game\+End\+Sts(), Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play(), and Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Sub().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_aea110063f001e3ec863350e681b365c9_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_aea110063f001e3ec863350e681b365c9_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Edge\+Side\+One@{get\+Edge\+Side\+One}}
+\index{get\+Edge\+Side\+One@{get\+Edge\+Side\+One}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Edge\+Side\+One(int y, int x)}{getEdgeSideOne(int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+Edge\+Side\+One (
+\begin{DoxyParamCaption}
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a604e22c6446a7b8ee81eece710dcdd48}{}\label{class_reversi4color_wpf_1_1_my_reversi_a604e22c6446a7b8ee81eece710dcdd48}
+
+
+指定座標が角の一つ手前か取得 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & y Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 \+: 成功 それ以外 \+: 失敗 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 2166 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Black(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Blue(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Red(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+White(), and Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu().
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a604e22c6446a7b8ee81eece710dcdd48_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Edge\+Side\+Three@{get\+Edge\+Side\+Three}}
+\index{get\+Edge\+Side\+Three@{get\+Edge\+Side\+Three}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Edge\+Side\+Three(int y, int x)}{getEdgeSideThree(int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+Edge\+Side\+Three (
+\begin{DoxyParamCaption}
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a3f70a2eb50131faf686d2a71b04a3abc}{}\label{class_reversi4color_wpf_1_1_my_reversi_a3f70a2eb50131faf686d2a71b04a3abc}
+
+
+指定座標が角の三つ以上手前か取得 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & y Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 \+: 成功 それ以外 \+: 失敗 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 2230 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Black(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Blue(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Red(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+White(), and Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu().
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a3f70a2eb50131faf686d2a71b04a3abc_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Edge\+Side\+Two@{get\+Edge\+Side\+Two}}
+\index{get\+Edge\+Side\+Two@{get\+Edge\+Side\+Two}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Edge\+Side\+Two(int y, int x)}{getEdgeSideTwo(int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+Edge\+Side\+Two (
+\begin{DoxyParamCaption}
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a652f8a39e6934d23b5cfbe4bfbe37dcd}{}\label{class_reversi4color_wpf_1_1_my_reversi_a652f8a39e6934d23b5cfbe4bfbe37dcd}
+
+
+指定座標が角の二つ手前か取得 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & y Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 \+: 成功 それ以外 \+: 失敗 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 2198 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Black(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Blue(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Red(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+White(), and Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu().
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a652f8a39e6934d23b5cfbe4bfbe37dcd_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Edge\+Side\+Zero@{get\+Edge\+Side\+Zero}}
+\index{get\+Edge\+Side\+Zero@{get\+Edge\+Side\+Zero}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Edge\+Side\+Zero(int y, int x)}{getEdgeSideZero(int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+Edge\+Side\+Zero (
+\begin{DoxyParamCaption}
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a3eeb1a89964b807fcd672907697f59c2}{}\label{class_reversi4color_wpf_1_1_my_reversi_a3eeb1a89964b807fcd672907697f59c2}
+
+
+指定座標が角か取得 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & y Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 \+: 成功 それ以外 \+: 失敗 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 2142 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Black(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Blue(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Red(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+White(), and Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu().
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a3eeb1a89964b807fcd672907697f59c2_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Game\+End\+Sts@{get\+Game\+End\+Sts}}
+\index{get\+Game\+End\+Sts@{get\+Game\+End\+Sts}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Game\+End\+Sts()}{getGameEndSts()}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+Game\+End\+Sts (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a0aa1a90ea5faa1685b89617a50a6a2e1}{}\label{class_reversi4color_wpf_1_1_my_reversi_a0aa1a90ea5faa1685b89617a50a6a2e1}
+
+
+ゲーム終了かチェック 
+
+\begin{DoxyReturn}{Returns}
+0 \+: 続行 それ以外 \+: ゲーム終了 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1783 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play(), and Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Sub().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a0aa1a90ea5faa1685b89617a50a6a2e1_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a0aa1a90ea5faa1685b89617a50a6a2e1_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+History@{get\+History}}
+\index{get\+History@{get\+History}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+History(int num)}{getHistory(int num)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Reversi\+History} Reversi4color\+Wpf.\+My\+Reversi.\+get\+History (
+\begin{DoxyParamCaption}
+\item[{int}]{num}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a2e7355e057594ba70b777cf179a94d41}{}\label{class_reversi4color_wpf_1_1_my_reversi_a2e7355e057594ba70b777cf179a94d41}
+
+
+履歴取得 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & num ポイント \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+履歴 null \+: 失敗 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1966 of file My\+Reversi.\+cs.
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a2e7355e057594ba70b777cf179a94d41_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+History\+Cnt@{get\+History\+Cnt}}
+\index{get\+History\+Cnt@{get\+History\+Cnt}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+History\+Cnt()}{getHistoryCnt()}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+History\+Cnt (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aa74fd4473c82625f169f3e5a18d155b2}{}\label{class_reversi4color_wpf_1_1_my_reversi_aa74fd4473c82625f169f3e5a18d155b2}
+
+
+履歴数取得 
+
+\begin{DoxyReturn}{Returns}
+履歴数 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1983 of file My\+Reversi.\+cs.
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Masu\+Sts@{get\+Masu\+Sts}}
+\index{get\+Masu\+Sts@{get\+Masu\+Sts}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Masu\+Sts(int y, int x)}{getMasuSts(int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+Masu\+Sts (
+\begin{DoxyParamCaption}
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a4e1068b67037558148ae886c6d3ef6d8}{}\label{class_reversi4color_wpf_1_1_my_reversi_a4e1068b67037558148ae886c6d3ef6d8}
+
+
+マスステータスを取得 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & y 取得するマスの\+Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x 取得するマスの\+X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/1 \+: 失敗 それ以外 \+: マスステータス 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1682 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+check\+Edge(), Reversi4color\+Wpf.\+Reversi\+Play.\+draw\+Update(), and Reversi4color\+Wpf.\+Reversi\+Play.\+exec\+Message().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a4e1068b67037558148ae886c6d3ef6d8_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a4e1068b67037558148ae886c6d3ef6d8_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Masu\+Sts\+Cnt@{get\+Masu\+Sts\+Cnt}}
+\index{get\+Masu\+Sts\+Cnt@{get\+Masu\+Sts\+Cnt}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Masu\+Sts\+Cnt(int color, int y, int x)}{getMasuStsCnt(int color, int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+Masu\+Sts\+Cnt (
+\begin{DoxyParamCaption}
+\item[{int}]{color, }
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aa335ecfdefbc46bca8de76b2865a4654}{}\label{class_reversi4color_wpf_1_1_my_reversi_aa335ecfdefbc46bca8de76b2865a4654}
+
+
+指定座標の獲得コマ数取得 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & color コマ色 \\
+\hline
+\mbox{\tt in}  & {\em int} & y マスの\+Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x マスの\+X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/1 \+: 失敗 それ以外 \+: 獲得コマ数 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1740 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+Reversi\+Play.\+exec\+Message(), and Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_aa335ecfdefbc46bca8de76b2865a4654_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_aa335ecfdefbc46bca8de76b2865a4654_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Masu\+Sts\+Ena@{get\+Masu\+Sts\+Ena}}
+\index{get\+Masu\+Sts\+Ena@{get\+Masu\+Sts\+Ena}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Masu\+Sts\+Ena(int color, int y, int x)}{getMasuStsEna(int color, int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+Masu\+Sts\+Ena (
+\begin{DoxyParamCaption}
+\item[{int}]{color, }
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a9bd7042ad264b2ffaa0a69aadef6a7f9}{}\label{class_reversi4color_wpf_1_1_my_reversi_a9bd7042ad264b2ffaa0a69aadef6a7f9}
+
+
+指定座標に指定色を置けるかチェック 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & color コマ色 \\
+\hline
+\mbox{\tt in}  & {\em int} & y マスの\+Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x マスの\+X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 \+: 成功 それ以外 \+: 失敗 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1717 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Black(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Blue(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Red(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+White(), Reversi4color\+Wpf.\+Reversi\+Play.\+exec\+Message(), Reversi4color\+Wpf.\+My\+Reversi.\+get\+Color\+Ena(), Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu(), and Reversi4color\+Wpf.\+My\+Reversi.\+set\+Masu\+Sts().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a9bd7042ad264b2ffaa0a69aadef6a7f9_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a9bd7042ad264b2ffaa0a69aadef6a7f9_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Masu\+Sts\+Old@{get\+Masu\+Sts\+Old}}
+\index{get\+Masu\+Sts\+Old@{get\+Masu\+Sts\+Old}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Masu\+Sts\+Old(int y, int x)}{getMasuStsOld(int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+Masu\+Sts\+Old (
+\begin{DoxyParamCaption}
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aa034cb7e21ff293bb62e8988db2f9d03}{}\label{class_reversi4color_wpf_1_1_my_reversi_aa034cb7e21ff293bb62e8988db2f9d03}
+
+
+以前のマスステータスを取得 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & y 取得するマスの\+Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x 取得するマスの\+X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/1 \+: 失敗 それ以外 \+: マスステータス 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1699 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+Reversi\+Play.\+draw\+Update().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_aa034cb7e21ff293bb62e8988db2f9d03_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_aa034cb7e21ff293bb62e8988db2f9d03_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Pass\+Ena@{get\+Pass\+Ena}}
+\index{get\+Pass\+Ena@{get\+Pass\+Ena}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Pass\+Ena(int color, int y, int x)}{getPassEna(int color, int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+Pass\+Ena (
+\begin{DoxyParamCaption}
+\item[{int}]{color, }
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a94677e93e122116de86053b2d29b7305}{}\label{class_reversi4color_wpf_1_1_my_reversi_a94677e93e122116de86053b2d29b7305}
+
+
+パス判定 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & color コマ色 \\
+\hline
+\mbox{\tt in}  & {\em int} & y マスの\+Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x マスの\+X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+パス判定
+\begin{DoxyItemize}
+\item 0 \+: N\+OT P\+A\+SS
+\item 1 \+: P\+A\+SS
+\end{DoxyItemize}
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1945 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a94677e93e122116de86053b2d29b7305_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a94677e93e122116de86053b2d29b7305_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Point@{get\+Point}}
+\index{get\+Point@{get\+Point}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Point(int color, int num)}{getPoint(int color, int num)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Reversi\+Point} Reversi4color\+Wpf.\+My\+Reversi.\+get\+Point (
+\begin{DoxyParamCaption}
+\item[{int}]{color, }
+\item[{int}]{num}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a13dc626307cc782c31fa88bf41797de0}{}\label{class_reversi4color_wpf_1_1_my_reversi_a13dc626307cc782c31fa88bf41797de0}
+
+
+ポイント座標取得 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & color コマ色 \\
+\hline
+\mbox{\tt in}  & {\em int} & num ポイント \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ポイント座標 null \+: 失敗 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1881 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+Reversi\+Play.\+reset(), and Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a13dc626307cc782c31fa88bf41797de0_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a13dc626307cc782c31fa88bf41797de0_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Point\+Anz@{get\+Point\+Anz}}
+\index{get\+Point\+Anz@{get\+Point\+Anz}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Point\+Anz(int color, int y, int x)}{getPointAnz(int color, int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Reversi\+Anz} Reversi4color\+Wpf.\+My\+Reversi.\+get\+Point\+Anz (
+\begin{DoxyParamCaption}
+\item[{int}]{color, }
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a9b2fa842b47dab7f22cdfd888700c92c}{}\label{class_reversi4color_wpf_1_1_my_reversi_a9b2fa842b47dab7f22cdfd888700c92c}
+
+
+ポイント座標解析取得 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & color コマ色 \\
+\hline
+\mbox{\tt in}  & {\em int} & y マスの\+Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x マスの\+X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ポイント座標解析 null \+: 失敗 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 2001 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a9b2fa842b47dab7f22cdfd888700c92c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a9b2fa842b47dab7f22cdfd888700c92c_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!get\+Point\+Cnt@{get\+Point\+Cnt}}
+\index{get\+Point\+Cnt@{get\+Point\+Cnt}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{get\+Point\+Cnt(int color)}{getPointCnt(int color)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+get\+Point\+Cnt (
+\begin{DoxyParamCaption}
+\item[{int}]{color}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_ac9f2dfa1075b49a69fa87ab4a45ae5f8}{}\label{class_reversi4color_wpf_1_1_my_reversi_ac9f2dfa1075b49a69fa87ab4a45ae5f8}
+
+
+ポイント座標数取得 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & color コマ色 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ポイント座標数取得 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1902 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Black(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Blue(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Red(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+White(), Reversi4color\+Wpf.\+Reversi\+Play.\+reset(), and Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu().
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_ac9f2dfa1075b49a69fa87ab4a45ae5f8_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!make\+Masu\+Sts@{make\+Masu\+Sts}}
+\index{make\+Masu\+Sts@{make\+Masu\+Sts}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{make\+Masu\+Sts(int color)}{makeMasuSts(int color)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+make\+Masu\+Sts (
+\begin{DoxyParamCaption}
+\item[{int}]{color}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_aacb2634fe75f3290910033d13bd335aa}{}\label{class_reversi4color_wpf_1_1_my_reversi_aacb2634fe75f3290910033d13bd335aa}
+
+
+各コマの置ける場所等のステータス作成 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & color ステータスを作成するコマ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ありません 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 407 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Black(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Blue(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Red(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+White(), Reversi4color\+Wpf.\+My\+Reversi.\+reset(), and Reversi4color\+Wpf.\+My\+Reversi.\+set\+Masu\+Sts().
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_aacb2634fe75f3290910033d13bd335aa_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!reset@{reset}}
+\index{reset@{reset}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{reset()}{reset()}}]{\setlength{\rightskip}{0pt plus 5cm}void Reversi4color\+Wpf.\+My\+Reversi.\+reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_af80d2c161f9734e13a6b37ca0ce852dc}{}\label{class_reversi4color_wpf_1_1_my_reversi_af80d2c161f9734e13a6b37ca0ce852dc}
+
+
+リセット 
+
+\begin{DoxyReturn}{Returns}
+ありません 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 355 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+My\+Reversi(), Reversi4color\+Wpf.\+Reversi\+Play.\+reset(), and Reversi4color\+Wpf.\+My\+Reversi.\+set\+Masu\+Cnt().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_af80d2c161f9734e13a6b37ca0ce852dc_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_af80d2c161f9734e13a6b37ca0ce852dc_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!rev\+Masu\+Sts@{rev\+Masu\+Sts}}
+\index{rev\+Masu\+Sts@{rev\+Masu\+Sts}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{rev\+Masu\+Sts(int color, int y, int x)}{revMasuSts(int color, int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}void Reversi4color\+Wpf.\+My\+Reversi.\+rev\+Masu\+Sts (
+\begin{DoxyParamCaption}
+\item[{int}]{color, }
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a6b5efd6678f80b1a5637576748457b3b}{}\label{class_reversi4color_wpf_1_1_my_reversi_a6b5efd6678f80b1a5637576748457b3b}
+
+
+コマをひっくり返す 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & color ひっくり返す元コマ \\
+\hline
+\mbox{\tt in}  & {\em int} & y ひっくり返す元コマの\+Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x ひっくり返す元コマの\+X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+ありません 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 657 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Black(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Blue(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+Red(), Reversi4color\+Wpf.\+My\+Reversi.\+Analysis\+Reversi\+White(), and Reversi4color\+Wpf.\+My\+Reversi.\+set\+Masu\+Sts().
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a6b5efd6678f80b1a5637576748457b3b_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!set\+Masu\+Cnt@{set\+Masu\+Cnt}}
+\index{set\+Masu\+Cnt@{set\+Masu\+Cnt}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{set\+Masu\+Cnt(int cnt)}{setMasuCnt(int cnt)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+set\+Masu\+Cnt (
+\begin{DoxyParamCaption}
+\item[{int}]{cnt}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a37c57a49d2f80c94dd0eb003de0328d5}{}\label{class_reversi4color_wpf_1_1_my_reversi_a37c57a49d2f80c94dd0eb003de0328d5}
+
+
+マスの数変更 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & cnt マスの数 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 \+: 成功 それ以外 \+: 失敗 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1856 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+Reversi\+Play.\+reset().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a37c57a49d2f80c94dd0eb003de0328d5_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a37c57a49d2f80c94dd0eb003de0328d5_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!set\+Masu\+Sts@{set\+Masu\+Sts}}
+\index{set\+Masu\+Sts@{set\+Masu\+Sts}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{set\+Masu\+Sts(int color, int y, int x)}{setMasuSts(int color, int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+set\+Masu\+Sts (
+\begin{DoxyParamCaption}
+\item[{int}]{color, }
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_a6d87b374741e3548284d8effa0c7e0fd}{}\label{class_reversi4color_wpf_1_1_my_reversi_a6d87b374741e3548284d8effa0c7e0fd}
+
+
+指定座標にコマを置く 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & color コマ色 \\
+\hline
+\mbox{\tt in}  & {\em int} & y マスの\+Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x マスの\+X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 \+: 成功 それ以外 \+: 失敗 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1804 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+Reversi\+Play.\+reset(), Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play(), and Reversi4color\+Wpf.\+Reversi\+Play.\+reversi\+Play\+Cpu().
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a6d87b374741e3548284d8effa0c7e0fd_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_a6d87b374741e3548284d8effa0c7e0fd_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}!set\+Masu\+Sts\+Forcibly@{set\+Masu\+Sts\+Forcibly}}
+\index{set\+Masu\+Sts\+Forcibly@{set\+Masu\+Sts\+Forcibly}!Reversi4color\+Wpf\+::\+My\+Reversi@{Reversi4color\+Wpf\+::\+My\+Reversi}}
+\subsubsection[{\texorpdfstring{set\+Masu\+Sts\+Forcibly(int color, int y, int x)}{setMasuStsForcibly(int color, int y, int x)}}]{\setlength{\rightskip}{0pt plus 5cm}int Reversi4color\+Wpf.\+My\+Reversi.\+set\+Masu\+Sts\+Forcibly (
+\begin{DoxyParamCaption}
+\item[{int}]{color, }
+\item[{int}]{y, }
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}\hypertarget{class_reversi4color_wpf_1_1_my_reversi_ac36c8b68028b3468cedc09454b118871}{}\label{class_reversi4color_wpf_1_1_my_reversi_ac36c8b68028b3468cedc09454b118871}
+
+
+指定座標にコマを強制的に置く 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em int} & color コマ色 \\
+\hline
+\mbox{\tt in}  & {\em int} & y マスの\+Y座標 \\
+\hline
+\mbox{\tt in}  & {\em int} & x マスの\+X座標 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 \+: 成功 それ以外 \+: 失敗 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Yuta Yoshinaga 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2017.\+10.\+20 
+\end{DoxyDate}
+
+
+Definition at line 1838 of file My\+Reversi.\+cs.
+
+
+
+Referenced by Reversi4color\+Wpf.\+Reversi\+Play.\+game\+End\+Anim\+Exec().
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_reversi4color_wpf_1_1_my_reversi_ac36c8b68028b3468cedc09454b118871_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Model/\hyperlink{_my_reversi_8cs}{My\+Reversi.\+cs}\end{DoxyCompactItemize}

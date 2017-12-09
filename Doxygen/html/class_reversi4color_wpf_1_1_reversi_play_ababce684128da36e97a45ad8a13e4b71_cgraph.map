@@ -1,0 +1,10 @@
+<map id="Reversi4colorWpf.ReversiPlay.execMessage" name="Reversi4colorWpf.ReversiPlay.execMessage">
+<area shape="rect" id="node2" href="$class_reversi4color_wpf_1_1_my_reversi.html#a4e1068b67037558148ae886c6d3ef6d8" title="マスステータスを取得 " alt="" coords="221,5,429,47"/>
+<area shape="rect" id="node4" href="$class_reversi4color_wpf_1_1_my_reversi.html#a9bd7042ad264b2ffaa0a69aadef6a7f9" title="指定座標に指定色を置けるかチェック " alt="" coords="221,71,429,112"/>
+<area shape="rect" id="node5" href="$class_reversi4color_wpf_1_1_my_reversi.html#aa335ecfdefbc46bca8de76b2865a4654" title="指定座標の獲得コマ数取得 " alt="" coords="221,136,429,177"/>
+<area shape="rect" id="node6" href="$class_reversi4color_wpf_1_1_reversi_play.html#a12e412e027b1e55abf3d767626a6f1d9" title="1マス描画 " alt="" coords="241,201,409,243"/>
+<area shape="rect" id="node7" href="$class_reversi4color_wpf_1_1_reversi_play.html#ab28025c8262b1f7fb97de3b7796a2650" title="現在の色メッセージ " alt="" coords="241,267,409,308"/>
+<area shape="rect" id="node8" href="$class_reversi4color_wpf_1_1_my_reversi.html#aeb3aac2b535091f0c31b69c35e3bee3b" title="コマ数取得 " alt="" coords="221,332,429,373"/>
+<area shape="rect" id="node9" href="$class_reversi4color_wpf_1_1_reversi_play.html#ac370dc8e96852754f9c4846a3d2a49c6" title="現在のステータスメッセージ " alt="" coords="241,397,409,439"/>
+<area shape="rect" id="node3" href="$class_reversi4color_wpf_1_1_my_reversi.html#a0b9374fdb5d82d5e59cddeb5f25ef676" title="パラメーター範囲チェック " alt="" coords="477,78,729,105"/>
+</map>

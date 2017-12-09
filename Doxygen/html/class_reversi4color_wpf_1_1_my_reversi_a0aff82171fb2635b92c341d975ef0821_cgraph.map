@@ -1,0 +1,5 @@
+<map id="Reversi4colorWpf.MyReversi.MyReversi" name="Reversi4colorWpf.MyReversi.MyReversi">
+<area shape="rect" id="node2" href="$class_reversi4color_wpf_1_1_my_reversi.html#af80d2c161f9734e13a6b37ca0ce852dc" title="リセット " alt="" coords="244,46,463,73"/>
+<area shape="rect" id="node3" href="$class_reversi4color_wpf_1_1_reversi_anz.html#a5310f56d39d5910068dd19eff79bec1f" title="リセット " alt="" coords="538,5,706,47"/>
+<area shape="rect" id="node4" href="$class_reversi4color_wpf_1_1_my_reversi.html#aacb2634fe75f3290910033d13bd335aa" title="各コマの置ける場所等のステータス作成 " alt="" coords="511,71,733,112"/>
+</map>

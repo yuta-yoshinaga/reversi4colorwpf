@@ -1,0 +1,8 @@
+<map id="Reversi4colorWpf.MainWindow" name="Reversi4colorWpf.MainWindow">
+<area shape="rect" id="node5" href="$class_reversi4color_wpf_1_1_reversi_setting.html" title="アプリ設定クラス " alt="" coords="454,843,622,1272"/>
+<area shape="rect" id="node7" href="$class_reversi4color_wpf_1_1_reversi_play.html" title="リバーシプレイクラス " alt="" coords="658,1437,853,2101"/>
+<area shape="rect" id="node8" href="$class_reversi4color_wpf_1_1_my_reversi.html" title="リバーシクラス " alt="" coords="702,740,889,1375"/>
+<area shape="rect" id="node9" href="$class_reversi4color_wpf_1_1_reversi_anz.html" title="リバーシ解析クラス " alt="" coords="1056,219,1247,633"/>
+<area shape="rect" id="node10" href="$class_reversi4color_wpf_1_1_reversi_history.html" title="リバーシ履歴クラス " alt="" coords="863,351,1031,501"/>
+<area shape="rect" id="node11" href="$class_reversi4color_wpf_1_1_reversi_point.html" title="リバーシポイント " alt="" coords="658,5,826,156"/>
+</map>

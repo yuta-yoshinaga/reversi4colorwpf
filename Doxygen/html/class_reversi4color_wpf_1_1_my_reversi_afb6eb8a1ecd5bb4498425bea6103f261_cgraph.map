@@ -1,0 +1,14 @@
+<map id="Reversi4colorWpf.MyReversi.AnalysisReversiRed" name="Reversi4colorWpf.MyReversi.AnalysisReversiRed">
+<area shape="rect" id="node2" href="$class_reversi4color_wpf_1_1_my_reversi.html#a6b5efd6678f80b1a5637576748457b3b" title="コマをひっくり返す " alt="" coords="268,5,475,47"/>
+<area shape="rect" id="node3" href="$class_reversi4color_wpf_1_1_my_reversi.html#aacb2634fe75f3290910033d13bd335aa" title="各コマの置ける場所等のステータス作成 " alt="" coords="260,71,483,112"/>
+<area shape="rect" id="node4" href="$class_reversi4color_wpf_1_1_my_reversi.html#aea110063f001e3ec863350e681b365c9" title="指定色が現在置ける場所があるかチェック " alt="" coords="267,136,475,177"/>
+<area shape="rect" id="node5" href="$class_reversi4color_wpf_1_1_my_reversi.html#a9bd7042ad264b2ffaa0a69aadef6a7f9" title="指定座標に指定色を置けるかチェック " alt="" coords="547,195,755,236"/>
+<area shape="rect" id="node7" href="$class_reversi4color_wpf_1_1_my_reversi.html#a3eeb1a89964b807fcd672907697f59c2" title="指定座標が角か取得 " alt="" coords="267,253,475,295"/>
+<area shape="rect" id="node8" href="$class_reversi4color_wpf_1_1_my_reversi.html#a604e22c6446a7b8ee81eece710dcdd48" title="指定座標が角の一つ手前か取得 " alt="" coords="267,319,475,360"/>
+<area shape="rect" id="node9" href="$class_reversi4color_wpf_1_1_my_reversi.html#abe8314a3a019e857add19ec6bba66781" title="角の隣に置いても角を取られないマス検索 " alt="" coords="244,385,499,411"/>
+<area shape="rect" id="node11" href="$class_reversi4color_wpf_1_1_my_reversi.html#a652f8a39e6934d23b5cfbe4bfbe37dcd" title="指定座標が角の二つ手前か取得 " alt="" coords="267,436,475,477"/>
+<area shape="rect" id="node12" href="$class_reversi4color_wpf_1_1_my_reversi.html#a3f70a2eb50131faf686d2a71b04a3abc" title="指定座標が角の三つ以上手前か取得 " alt="" coords="267,501,475,543"/>
+<area shape="rect" id="node13" href="$class_reversi4color_wpf_1_1_my_reversi.html#ac9f2dfa1075b49a69fa87ab4a45ae5f8" title="ポイント座標数取得 " alt="" coords="267,567,475,608"/>
+<area shape="rect" id="node6" href="$class_reversi4color_wpf_1_1_my_reversi.html#a0b9374fdb5d82d5e59cddeb5f25ef676" title="パラメーター範囲チェック " alt="" coords="803,249,1055,275"/>
+<area shape="rect" id="node10" href="$class_reversi4color_wpf_1_1_my_reversi.html#a4e1068b67037558148ae886c6d3ef6d8" title="マスステータスを取得 " alt="" coords="547,332,755,373"/>
+</map>

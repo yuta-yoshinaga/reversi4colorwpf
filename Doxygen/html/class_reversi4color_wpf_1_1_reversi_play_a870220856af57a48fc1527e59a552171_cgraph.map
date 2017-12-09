@@ -1,0 +1,15 @@
+<map id="Reversi4colorWpf.ReversiPlay.reversiPlayEnd" name="Reversi4colorWpf.ReversiPlay.reversiPlayEnd">
+<area shape="rect" id="node2" href="$class_reversi4color_wpf_1_1_reversi_play.html#a11c4713ab8ff3fde4ebf7b0ab6cc7ed3" title="ゲーム終了アニメーション " alt="" coords="221,153,389,194"/>
+<area shape="rect" id="node3" href="$class_reversi4color_wpf_1_1_my_reversi.html#aeb3aac2b535091f0c31b69c35e3bee3b" title="コマ数取得 " alt="" coords="909,15,1117,57"/>
+<area shape="rect" id="node4" href="$class_reversi4color_wpf_1_1_reversi_play.html#ababce684128da36e97a45ad8a13e4b71" title="メッセージ " alt="" coords="693,211,861,253"/>
+<area shape="rect" id="node14" href="$class_reversi4color_wpf_1_1_reversi_play.html#a04d48302d3d83031b891697144041368" title="メッセージダイアログ " alt="" coords="221,329,389,370"/>
+<area shape="rect" id="node12" href="$class_reversi4color_wpf_1_1_my_reversi.html#ac36c8b68028b3468cedc09454b118871" title="指定座標にコマを強制的に置く " alt="" coords="437,43,645,85"/>
+<area shape="rect" id="node13" href="$class_reversi4color_wpf_1_1_reversi_play.html#a31094f14117da5411e4616e7935ff67b" title="描画メッセージ送信 " alt="" coords="457,211,625,253"/>
+<area shape="rect" id="node5" href="$class_reversi4color_wpf_1_1_my_reversi.html#a4e1068b67037558148ae886c6d3ef6d8" title="マスステータスを取得 " alt="" coords="909,146,1117,187"/>
+<area shape="rect" id="node7" href="$class_reversi4color_wpf_1_1_my_reversi.html#a9bd7042ad264b2ffaa0a69aadef6a7f9" title="指定座標に指定色を置けるかチェック " alt="" coords="909,211,1117,253"/>
+<area shape="rect" id="node8" href="$class_reversi4color_wpf_1_1_my_reversi.html#aa335ecfdefbc46bca8de76b2865a4654" title="指定座標の獲得コマ数取得 " alt="" coords="909,81,1117,122"/>
+<area shape="rect" id="node9" href="$class_reversi4color_wpf_1_1_reversi_play.html#a12e412e027b1e55abf3d767626a6f1d9" title="1マス描画 " alt="" coords="929,277,1097,318"/>
+<area shape="rect" id="node10" href="$class_reversi4color_wpf_1_1_reversi_play.html#ab28025c8262b1f7fb97de3b7796a2650" title="現在の色メッセージ " alt="" coords="929,342,1097,383"/>
+<area shape="rect" id="node11" href="$class_reversi4color_wpf_1_1_reversi_play.html#ac370dc8e96852754f9c4846a3d2a49c6" title="現在のステータスメッセージ " alt="" coords="929,407,1097,449"/>
+<area shape="rect" id="node6" href="$class_reversi4color_wpf_1_1_my_reversi.html#a0b9374fdb5d82d5e59cddeb5f25ef676" title="パラメーター範囲チェック " alt="" coords="1165,153,1417,180"/>
+</map>

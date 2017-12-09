@@ -1,0 +1,8 @@
+<map id="Reversi4colorWpf.ReversiPlay.gameEndAnimExec" name="Reversi4colorWpf.ReversiPlay.gameEndAnimExec">
+<area shape="rect" id="node2" href="$class_reversi4color_wpf_1_1_reversi_play.html#a870220856af57a48fc1527e59a552171" title="リバーシプレイ終了 " alt="" coords="221,5,389,47"/>
+<area shape="rect" id="node3" href="$class_reversi4color_wpf_1_1_reversi_play.html#a71d9150ecdddaf5e6446430bf8658180" title="リバーシプレイ " alt="" coords="653,5,821,47"/>
+<area shape="rect" id="node7" href="$class_reversi4color_wpf_1_1_reversi_play.html#a44bb5fb6cfa685baef758a8129bd9d36" title="リバーシプレイサブ " alt="" coords="437,35,605,76"/>
+<area shape="rect" id="node4" href="$class_reversi4color_wpf_1_1_main_window.html#abdd178ee605694145f7d214870176c07" title="マスクリック " alt="" coords="869,5,1112,47"/>
+<area shape="rect" id="node5" href="$class_reversi4color_wpf_1_1_main_window.html#a20f84946e71f327820f3ccbefca1f3a0" title="InitializeComponent " alt="" coords="1160,5,1364,47"/>
+<area shape="rect" id="node6" href="$class_reversi4color_wpf_1_1_main_window.html#ad472ea40f8c1574627f7d855cd6515f1" title="コンストラクタ " alt="" coords="1412,5,1616,47"/>
+</map>

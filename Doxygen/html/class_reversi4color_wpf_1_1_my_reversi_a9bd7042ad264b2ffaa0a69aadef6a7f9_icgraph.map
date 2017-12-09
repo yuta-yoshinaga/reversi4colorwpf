@@ -1,0 +1,25 @@
+<map id="Reversi4colorWpf.MyReversi.getMasuStsEna" name="Reversi4colorWpf.MyReversi.getMasuStsEna">
+<area shape="rect" id="node2" href="$class_reversi4color_wpf_1_1_my_reversi.html#af3e53dce82787cfdad079a37c2c73f61" title="解析を行う(黒) " alt="" coords="517,222,708,263"/>
+<area shape="rect" id="node10" href="$class_reversi4color_wpf_1_1_reversi_play.html#a2c7daaca43563e35abf8e65347c65a23" title="リバーシプレイコンピューター " alt="" coords="1032,544,1200,586"/>
+<area shape="rect" id="node12" href="$class_reversi4color_wpf_1_1_my_reversi.html#a4acbdc2f3b8873eb4e5e0858eb4cfc75" title="解析を行う(青) " alt="" coords="517,352,708,394"/>
+<area shape="rect" id="node13" href="$class_reversi4color_wpf_1_1_my_reversi.html#afb6eb8a1ecd5bb4498425bea6103f261" title="解析を行う(赤) " alt="" coords="517,287,708,328"/>
+<area shape="rect" id="node14" href="$class_reversi4color_wpf_1_1_my_reversi.html#a93276b74fb1de8525be31615ff03427e" title="解析を行う(白) " alt="" coords="517,54,708,95"/>
+<area shape="rect" id="node15" href="$class_reversi4color_wpf_1_1_reversi_play.html#ababce684128da36e97a45ad8a13e4b71" title="メッセージ " alt="" coords="281,731,449,772"/>
+<area shape="rect" id="node22" href="$class_reversi4color_wpf_1_1_my_reversi.html#aea110063f001e3ec863350e681b365c9" title="指定色が現在置ける場所があるかチェック " alt="" coords="261,167,469,208"/>
+<area shape="rect" id="node24" href="$class_reversi4color_wpf_1_1_my_reversi.html#a6d87b374741e3548284d8effa0c7e0fd" title="指定座標にコマを置く " alt="" coords="756,403,964,444"/>
+<area shape="rect" id="node3" href="$class_reversi4color_wpf_1_1_my_reversi.html#a228ec7c4ed93d7207aebb824906ccc2e" title="解析を行う " alt="" coords="765,328,955,370"/>
+<area shape="rect" id="node4" href="$class_reversi4color_wpf_1_1_reversi_play.html#a37fb774e5829a4dd99d9af0ca020f912" title="リセット処理 " alt="" coords="1032,479,1200,520"/>
+<area shape="rect" id="node8" href="$class_reversi4color_wpf_1_1_reversi_play.html#a71d9150ecdddaf5e6446430bf8658180" title="リバーシプレイ " alt="" coords="1539,544,1707,586"/>
+<area shape="rect" id="node5" href="$class_reversi4color_wpf_1_1_main_window.html#ad472ea40f8c1574627f7d855cd6515f1" title="コンストラクタ " alt="" coords="2297,475,2501,516"/>
+<area shape="rect" id="node6" href="$class_reversi4color_wpf_1_1_main_window.html#a0ac7673de0ecfc247dd3224a9f999098" title="リセットクリック " alt="" coords="1268,662,1491,703"/>
+<area shape="rect" id="node7" href="$class_reversi4color_wpf_1_1_main_window.html#a20f84946e71f327820f3ccbefca1f3a0" title="InitializeComponent " alt="" coords="2045,544,2249,586"/>
+<area shape="rect" id="node9" href="$class_reversi4color_wpf_1_1_main_window.html#abdd178ee605694145f7d214870176c07" title="マスクリック " alt="" coords="1755,544,1997,586"/>
+<area shape="rect" id="node11" href="$class_reversi4color_wpf_1_1_reversi_play.html#a44bb5fb6cfa685baef758a8129bd9d36" title="リバーシプレイサブ " alt="" coords="1295,544,1463,586"/>
+<area shape="rect" id="node16" href="$class_reversi4color_wpf_1_1_reversi_play.html#a870220856af57a48fc1527e59a552171" title="リバーシプレイ終了 " alt="" coords="1032,907,1200,948"/>
+<area shape="rect" id="node17" href="$class_reversi4color_wpf_1_1_reversi_play.html#af579d0b931ddc4bb8e07f37254e08625" title="マス描画更新 " alt="" coords="776,622,944,663"/>
+<area shape="rect" id="node18" href="$class_reversi4color_wpf_1_1_reversi_play.html#a4669f078f21525854defe55a689fe2de" title="マス描画強制更新 " alt="" coords="776,739,944,780"/>
+<area shape="rect" id="node19" href="$class_reversi4color_wpf_1_1_reversi_play.html#a11c4713ab8ff3fde4ebf7b0ab6cc7ed3" title="ゲーム終了アニメーション " alt="" coords="776,907,944,948"/>
+<area shape="rect" id="node20" href="$class_reversi4color_wpf_1_1_reversi_play.html#a31094f14117da5411e4616e7935ff67b" title="描画メッセージ送信 " alt="" coords="529,840,697,882"/>
+<area shape="rect" id="node21" href="$class_reversi4color_wpf_1_1_reversi_play.html#a503f1a56ac7547ebfb347c31ff5b7e15" title="情報描画メッセージ送信 " alt="" coords="529,622,697,663"/>
+<area shape="rect" id="node23" href="$class_reversi4color_wpf_1_1_my_reversi.html#a0aa1a90ea5faa1685b89617a50a6a2e1" title="ゲーム終了かチェック " alt="" coords="1012,108,1220,150"/>
+</map>

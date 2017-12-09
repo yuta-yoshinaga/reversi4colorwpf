@@ -1,0 +1,12 @@
+<map id="Reversi4colorWpf.SettingWindow.SettingWindow" name="Reversi4colorWpf.SettingWindow.SettingWindow">
+<area shape="rect" id="node2" href="$class_reversi4color_wpf_1_1_setting_window.html#ac85da370c146e04c94ae2535845b603f" title="InitializeComponent " alt="" coords="220,249,405,291"/>
+<area shape="rect" id="node7" href="$class_reversi4color_wpf_1_1_setting_window.html#a768840bbf4baf723e039d187a7ee3def" title="フォームに設定を反映 " alt="" coords="737,357,916,399"/>
+<area shape="rect" id="node3" href="$class_reversi4color_wpf_1_1_setting_window.html#afbcd7dd27bd8a753ef2d9f991880db6b" title="キャンセルボタンクリック " alt="" coords="479,5,663,47"/>
+<area shape="rect" id="node4" href="$class_reversi4color_wpf_1_1_setting_window.html#a6a6a1a2fd61463026678b72dabaf7729" title="保存ボタンクリック " alt="" coords="485,71,657,112"/>
+<area shape="rect" id="node5" href="$class_reversi4color_wpf_1_1_setting_window.html#af2d7e447926127521d276807776c7bf0" title="デフォルト設定に戻すボタンクリック " alt="" coords="479,136,663,177"/>
+<area shape="rect" id="node8" href="$class_reversi4color_wpf_1_1_setting_window.html#aeb017c6106fd3bd79083e1326623ef8b" title="プレイヤー1の色クリック " alt="" coords="467,202,675,258"/>
+<area shape="rect" id="node9" href="$class_reversi4color_wpf_1_1_setting_window.html#a19ec10790a7c71407fc0a67faf97978e" title="プレイヤー2の色クリック " alt="" coords="467,282,675,338"/>
+<area shape="rect" id="node10" href="$class_reversi4color_wpf_1_1_setting_window.html#a40fbee94e6f54854efe0e29d2e4252fb" title="背景の色クリック " alt="" coords="453,362,689,418"/>
+<area shape="rect" id="node11" href="$class_reversi4color_wpf_1_1_setting_window.html#a22a2d7abed12e8360eb1b85f5af92268" title="枠線の色クリック " alt="" coords="470,442,673,498"/>
+<area shape="rect" id="node6" href="$class_reversi4color_wpf_1_1_reversi_setting.html#aa224dc25fde9486241a4b6087e57c04e" title="リセット " alt="" coords="743,136,911,177"/>
+</map>
