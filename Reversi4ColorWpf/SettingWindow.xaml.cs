@@ -110,11 +110,29 @@ namespace Reversi4colorWpf
 			{
 				radioButtonPlayer1.IsChecked = true;
 				radioButtonPlayer2.IsChecked = false;
+				radioButtonPlayer3.IsChecked = false;
+				radioButtonPlayer4.IsChecked = false;
+			}
+			else if(mSetting.mPlayer == ReversiConst.REVERSI_STS_WHITE)
+			{
+				radioButtonPlayer1.IsChecked = false;
+				radioButtonPlayer2.IsChecked = true;
+				radioButtonPlayer3.IsChecked = false;
+				radioButtonPlayer4.IsChecked = false;
+			}
+			else if(mSetting.mPlayer == ReversiConst.REVERSI_STS_BLUE)
+			{
+				radioButtonPlayer1.IsChecked = false;
+				radioButtonPlayer2.IsChecked = false;
+				radioButtonPlayer3.IsChecked = true;
+				radioButtonPlayer4.IsChecked = false;
 			}
 			else
 			{
 				radioButtonPlayer1.IsChecked = false;
-				radioButtonPlayer2.IsChecked = true;
+				radioButtonPlayer2.IsChecked = false;
+				radioButtonPlayer3.IsChecked = false;
+				radioButtonPlayer4.IsChecked = true;
 			}
 			// *** アシスト *** //
 			if(mSetting.mAssist == ReversiConst.DEF_ASSIST_OFF)
@@ -248,6 +266,8 @@ namespace Reversi4colorWpf
 			}
 			pictureBoxPlayerColor1.Background = new SolidColorBrush(System.Windows.Media.Color.FromArgb(mSetting.mPlayerColor1.A,mSetting.mPlayerColor1.R,mSetting.mPlayerColor1.G,mSetting.mPlayerColor1.B));
 			pictureBoxPlayerColor2.Background = new SolidColorBrush(System.Windows.Media.Color.FromArgb(mSetting.mPlayerColor2.A,mSetting.mPlayerColor2.R,mSetting.mPlayerColor2.G,mSetting.mPlayerColor2.B));
+			pictureBoxPlayerColor3.Background = new SolidColorBrush(System.Windows.Media.Color.FromArgb(mSetting.mPlayerColor3.A,mSetting.mPlayerColor3.R,mSetting.mPlayerColor3.G,mSetting.mPlayerColor3.B));
+			pictureBoxPlayerColor4.Background = new SolidColorBrush(System.Windows.Media.Color.FromArgb(mSetting.mPlayerColor4.A,mSetting.mPlayerColor4.R,mSetting.mPlayerColor4.G,mSetting.mPlayerColor4.B));
 			pictureBoxBackGroundColor.Background = new SolidColorBrush(System.Windows.Media.Color.FromArgb(mSetting.mBackGroundColor.A,mSetting.mBackGroundColor.R,mSetting.mBackGroundColor.G,mSetting.mBackGroundColor.B));
 			pictureBoxBorderColor.Background = new SolidColorBrush(System.Windows.Media.Color.FromArgb(mSetting.mBorderColor.A,mSetting.mBorderColor.R,mSetting.mBorderColor.G,mSetting.mBorderColor.B));
 		}
@@ -270,17 +290,19 @@ namespace Reversi4colorWpf
 			else if(radioButtonType2.IsChecked == true)		mSetting.mType = ReversiConst.DEF_TYPE_NOR;
 			else											mSetting.mType = ReversiConst.DEF_TYPE_HARD;
 			// *** プレイヤーの色 *** //
-			if(radioButtonPlayer1.IsChecked == true)			mSetting.mPlayer = ReversiConst.REVERSI_STS_BLACK;
-			else											mSetting.mPlayer = ReversiConst.REVERSI_STS_WHITE;
+			if(radioButtonPlayer1.IsChecked == true)		mSetting.mPlayer = ReversiConst.REVERSI_STS_BLACK;
+			else if(radioButtonPlayer2.IsChecked == true)	mSetting.mPlayer = ReversiConst.REVERSI_STS_WHITE;
+			else if(radioButtonPlayer3.IsChecked == true)	mSetting.mPlayer = ReversiConst.REVERSI_STS_BLUE;
+			else											mSetting.mPlayer = ReversiConst.REVERSI_STS_RED;
 			// *** アシスト *** //
-			if(radioButtonAssist1.IsChecked == true)			mSetting.mAssist = ReversiConst.DEF_ASSIST_OFF;
+			if(radioButtonAssist1.IsChecked == true)		mSetting.mAssist = ReversiConst.DEF_ASSIST_OFF;
 			else											mSetting.mAssist = ReversiConst.DEF_ASSIST_ON;
 			// *** ゲームスピード *** //
-			if(radioButtonGameSpd1.IsChecked == true)			mSetting.mGameSpd = ReversiConst.DEF_GAME_SPD_FAST;
+			if(radioButtonGameSpd1.IsChecked == true)		mSetting.mGameSpd = ReversiConst.DEF_GAME_SPD_FAST;
 			else if(radioButtonGameSpd2.IsChecked == true)	mSetting.mGameSpd = ReversiConst.DEF_GAME_SPD_MID;
 			else											mSetting.mGameSpd = ReversiConst.DEF_GAME_SPD_SLOW;
 			// *** ゲーム終了アニメーション *** //
-			if(radioButtonEndAnim1.IsChecked == true)			mSetting.mEndAnim = ReversiConst.DEF_END_ANIM_OFF;
+			if(radioButtonEndAnim1.IsChecked == true)		mSetting.mEndAnim = ReversiConst.DEF_END_ANIM_OFF;
 			else											mSetting.mEndAnim = ReversiConst.DEF_END_ANIM_ON;
 			// *** マスの数 *** //
 			if(radioButtonMasuCntMenu1.IsChecked == true)
@@ -327,6 +349,10 @@ namespace Reversi4colorWpf
 			mSetting.mPlayerColor1		= System.Drawing.Color.FromArgb(work.Color.A,work.Color.R,work.Color.G,work.Color.B);
 			work						= (SolidColorBrush)pictureBoxPlayerColor2.Background;
 			mSetting.mPlayerColor2		= System.Drawing.Color.FromArgb(work.Color.A,work.Color.R,work.Color.G,work.Color.B);
+			work						= (SolidColorBrush)pictureBoxPlayerColor3.Background;
+			mSetting.mPlayerColor3		= System.Drawing.Color.FromArgb(work.Color.A,work.Color.R,work.Color.G,work.Color.B);
+			work						= (SolidColorBrush)pictureBoxPlayerColor4.Background;
+			mSetting.mPlayerColor4		= System.Drawing.Color.FromArgb(work.Color.A,work.Color.R,work.Color.G,work.Color.B);
 			work						= (SolidColorBrush)pictureBoxBackGroundColor.Background;
 			mSetting.mBackGroundColor	= System.Drawing.Color.FromArgb(work.Color.A,work.Color.R,work.Color.G,work.Color.B);
 			work						= (SolidColorBrush)pictureBoxBorderColor.Background;

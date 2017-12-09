@@ -28,13 +28,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_90180C423B3FF42CB02C6CD0436E4EDE"
+        "OwnerKey" = "8:_FA6B322D164449AEAB9711F062581B36"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FA6B322D164449AEAB9711F062581B36"
+        "OwnerKey" = "8:_90180C423B3FF42CB02C6CD0436E4EDE"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -55,6 +55,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -71,6 +79,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -197,10 +213,10 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:ReversiWpf"
+        "ProductName" = "8:Reversi4ColorWpf"
         "ProductCode" = "8:{FDD992CD-2EF2-4E06-8205-70F6143A55B5}"
         "PackageCode" = "8:{F491E18E-3FCF-442C-BCB6-3E9E1ADE7492}"
-        "UpgradeCode" = "8:{417F758D-DEAB-457A-AECA-411A0895D7C8}"
+        "UpgradeCode" = "8:{55AAD2B9-4191-4421-AF46-089297CB5AD6}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
@@ -210,7 +226,7 @@
         "Manufacturer" = "8:Y.Y Magic"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://yymagic.web.fc2.com/"
-        "Title" = "8:ReversiWpf"
+        "Title" = "8:Reversi4ColorWpf"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Y.Y Magic"
         "Keywords" = "8:"
@@ -321,7 +337,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_42880A1770A547108C8799F821D1E33C"
             {
-            "Name" = "8:ReversiWpf"
+            "Name" = "8:Reversi4ColorWpf"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -335,7 +351,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_61B17109D03F4482A91A9E68A959243C"
             {
-            "Name" = "8:ReversiWpf"
+            "Name" = "8:Reversi4ColorWpf"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -748,7 +764,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_FA6B322D164449AEAB9711F062581B36"
             {
-            "SourcePath" = "8:..\\ReversiWpf\\obj\\Debug\\ReversiWpf.exe"
+            "SourcePath" = "8:..\\Reversi4ColorWpf\\obj\\Debug\\Reversi4ColorWpf.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_6B6B0F4EB45D42D0B05FC72DE750BA39"
